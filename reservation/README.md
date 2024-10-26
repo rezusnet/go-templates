@@ -25,13 +25,13 @@ MONGO_DB_URL_TEST=mongodb://localhost:27017
 
 Documentation
 
-```
+```link
 https://mongodb.com/docs/drivers/go/current/quick-start
 ```
 
 Installing mongodb client
 
-```
+```sh
 go get go.mongodb.org/mongo-driver/mongo
 ```
 
@@ -39,13 +39,13 @@ go get go.mongodb.org/mongo-driver/mongo
 
 Documentation
 
-```
+```link
 https://gofiber.io
 ```
 
 Installing gofiber
 
-```
+```sh
 go get github.com/gofiber/fiber/v2
 ```
 
@@ -53,6 +53,6 @@ go get github.com/gofiber/fiber/v2
 
 ### Installing mongodb as a Docker container
 
-```
+```sh
 docker run --name mongodb -d mongo:latest -p 27017:27017
 ```
